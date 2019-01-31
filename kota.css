@@ -1,0 +1,297 @@
+*{
+  box-sizing: border-box;
+}
+
+[class*="col-"] { float:left; padding: 15px;}
+
+/* For Smartphone */
+[class*="col-"] { width: 100%}
+
+@media only screen and (min-width: 600px) {
+  /* For Tablets */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width:83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For dekstop */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width:83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+.header{
+  background: url(wil.jpg) no-repeat center;
+  background-size: cover;
+  height: auto;
+}
+
+.header .logo{
+  text-align: center;
+}
+
+.header .logo img{
+  width: 150px;
+  height: auto;
+}
+
+.header .judul h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.menu{
+  background: #93eac2;
+}
+
+.menu ul{
+  list-style-type: none;
+}
+
+.menu ul li{
+  border: 2px solid #000;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+}
+
+div.isi{
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  float: left;
+  margin-top: 20px;
+}
+
+div.isi .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+div.isi .left h1{
+  text-align: right;
+  text-transform: uppercase; /* huruf kapital*/
+  font-size: 50px;
+  font-family:sans-serif;
+  font-weight: 20;
+  border-right: 10px solid #00b33c;
+  padding-right: 10px;
+}
+
+div.isi .left p{
+  text-align: right;
+  font-size: 20px;
+  color: grey;
+}
+div.isi .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+div.isi .right img{
+  width: 470px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin:0 auto;
+  border: 5px solid grey;
+}
+
+.kuliner1{
+  width: 100%;
+  margin:0 auto;
+  background: #ccffcc;
+}
+
+.kuliner2{
+  width: 100%;
+  margin:0 auto;
+  background: #ccffcc;
+}
+
+.box{
+  text-align: center;
+}
+
+.kuliner1 h1{
+  text-align: center;
+  font-family: georgia;
+  text-transform: uppercase;
+}
+
+.kuliner1 h2{
+  text-align: center;
+  font-family:sans-serif;
+  text-transform: uppercase;
+}
+
+.kuliner2 h2{
+  text-align: center;
+  font-family:sans-serif;
+  text-transform: uppercase;
+}
+
+.kuliner1 .box p{
+  border: 5px solid #b8b894;
+  font-size: 17px;
+  font-family: verdana;
+}
+
+.kuliner2 .box p{
+  border: 5px solid #b8b894;
+  font-size: 17px;
+  font-family: verdana;
+}
+
+.pariwisata1{
+  width: 100%;
+  margin:0 auto;
+  background: #fff;
+}
+
+.pariwisata2{
+  width: 100%;
+  margin:0 auto;
+  background: #fff;
+}
+
+.pariwisata3{
+  width: 100%;
+  margin:0 auto;
+  background: #fff;
+}
+
+.pariwisata1 h1{
+  text-align: center;
+  font-family: georgia;
+  text-transform: uppercase;
+}
+
+.pariwisata1 h2{
+  text-align: center;
+  font-family:sans-serif;
+  text-transform: uppercase;
+}
+
+.pariwisata2 h2{
+  text-align: center;
+  font-family:sans-serif;
+  text-transform: uppercase;
+}
+
+.pariwisata3 h2{
+  text-align: center;
+  font-family:sans-serif;
+  text-transform: uppercase;
+}
+
+.pariwisata1 .box p{
+  border-style: dotted;
+  font-size: 17px;
+  font-family: verdana;
+}
+
+.pariwisata2 .box p{
+  border-style: dotted;
+  font-size: 17px;
+  font-family: verdana;
+}
+
+.pariwisata3 .box p{
+  border-style: dotted;
+  font-size: 17px;
+  font-family: verdana;
+}
+
+.budaya{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  float: left;
+  margin-top: 20px;
+  background: #adebad;
+  margin-bottom: 50px;
+}
+
+.budaya .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.budaya h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family:sans-serif;
+  font-weight: 20;
+  border-right: 10px solid #00b33c;
+  padding-right: 10px;
+}
+
+.budaya .left p{
+  text-align: right;
+  font-size: 20px;
+  color: black;
+  font-family: Calibri;
+
+}
+
+.budaya .left h2{
+  text-align: right;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-family: Calibri Light;
+}
+
+.budaya .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.budaya .right img{
+  width: 470px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.footer{
+  background: #737373;
+  color: #1a1a1a;
+}
